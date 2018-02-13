@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime RPG</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <audio id="bg-audio" src="assets/audio/StruggleofSadness.mp3"></audio>
+    <audio id="deathcry" src="assets/audio/deathcry.mp3"></audio>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title text-center" id="header">Choose two characters to battle!</h1>
+                    <div class="row characters">
+                        <div class="GameChar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="battleStage">
+
+                <div class="col-md-4" id="hero">
+                    <div class="BattleImage" id="BattleHero"></div>
+
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <button type="button" class="btn btn-lg btn-danger attackBTN" id="button">Attack!</button>
+                    <br>
+                    <button type="button" class="btn btn-lg btn-danger resetBTN" id="button">Reset Not Working</button>
+                    
+                </div>
+
+                <div class="col-md-4" id="enemy">
+                    <div class="BattleImage" id="BattleEnemy"></div>
+                </div>
+            </div>
+            <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="assets/js/yuyuhakusho.js"></script>
+</body>
+
+</html>
