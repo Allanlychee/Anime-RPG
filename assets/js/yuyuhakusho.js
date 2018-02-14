@@ -136,6 +136,12 @@ $(document).on("click", ".attackBTN", function () {
 })
 //Reset Game Function   
 // $(document).on("click", ".resetBTN", function () {
-  
+//     // $("#BattleHero").hide()
+//     // $("#BattleEnemy").hide()
+//     // $('.characters').hide()
+//     // $('.attackBTN').hide()
+//     // $('.resetBTN').hide()
+
 // })
+
 initGame()
