@@ -130,7 +130,7 @@ $(document).on("click", ".attackBTN", function () {
     else if (chosenHero.hp < 1) {
         alert("You Lose")
     }
-    else if (NbrEnemy === 0) {
+    else if (NbrEnemy ===0) {
         alert("You win")
     }
 })

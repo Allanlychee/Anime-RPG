@@ -14,7 +14,8 @@
 
 .avoid-clicks {
     pointer-events: none;
-  }
+}
+
 .char {
     color: white;
     text-align: center;
@@ -35,35 +36,34 @@
     padding: 10px;
     border: 1px solid white;
     background-color: rgb(22, 18, 70);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .charImg {
     background-color: black;
 }
 
-.startBTN{
+.startBTN {
     margin-bottom: 20px;
 }
 
-.resetBTN{
+.resetBTN {
     margin-top: 20px;
 }
 
-#BattleHero{
-    margin-top:20px;
-    margin-left:50px;
+#BattleHero {
+    margin-top: 20px;
+    margin-left: 50px;
     text-align: center;
     color: white;
     background-color: black;
 }
 
 #BattleEnemy {
-    margin-top:20px;
-    margin-right:50px;
-    text-align:center;
-    color:white;
-    
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
 }
 
 .attackBTN {
@@ -71,9 +71,9 @@
 }
 
 .unselectable {
-        -moz-user-select: -moz-none;
-        -khtml-user-select: none;
-        -webkit-user-select: none;
-        -o-user-select: none;
-        user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
