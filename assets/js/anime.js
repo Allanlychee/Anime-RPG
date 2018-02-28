@@ -134,14 +134,16 @@ $(document).on("click", ".attackBTN", function () {
         alert("You win")
     }
 })
-//Reset Game Function   
-// $(document).on("click", ".resetBTN", function () {
-//     // $("#BattleHero").hide()
-//     // $("#BattleEnemy").hide()
-//     // $('.characters').hide()
-//     // $('.attackBTN').hide()
-//     // $('.resetBTN').hide()
+// Reset Game Function   
+$(document).on("click", ".resetBTN", function (event) {
+    event.preventDefault()
+    $("#BattleHero").hide()
+    $("#BattleEnemy").hide()
+    $('.characters').hide()
+    initGame()
+    // $('.attackBTN').hide()
+    // $('.resetBTN').hide()
 
-// })
+})
 
 initGame()
